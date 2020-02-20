@@ -62,7 +62,12 @@ Repeat the same process for the Watson Studio. You will find it in the Catalog u
 8. Enter a name for the service instance. You can keep the default resource group. 
 9. Click Confirm. 
 
+![Associated services](readme_images/associated-services.png)
+
 ## Data visualization
+
+<h4>1) Upload the data set</h4>
+In Watson Studio, select Assets. If not already open, click the 0100 data icon at the upper right of the panel to open the Files sub-panel. Then, click Load and browse.
 
 ## If you have any questions just contact me
 Felix Augenstein<br>
