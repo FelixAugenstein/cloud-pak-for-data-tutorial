@@ -86,6 +86,26 @@ Watson Studio shows you a preview of the data in the Preview tab.
 
 ![Preview Data](readme_images/preview-data.png)
 
+<h4>3) Visualize data in Cognos Dashboard service</h4>
+
+You can look further into the data set by creating a dashboard with associated visualizations. This basically requires three steps: creating an empty dashboard, adding a data source to be used for visualizations, and adding appropriate visualizations to the dashboard.
+
+To create the dashboard:
+
+1. Go to the project and click Add to project.
+2. Click Dashboard to create a new dashboard.
+3. Follow these steps in the New Dashboard page:
+- Enter a Name for the dashboard (for example, ‘customer-churn-dashboard’.)
+- Provide a Description for the dashboard (optional).
+- For Cognos Dashboard Embedded Service, select the dashboard service that you created previously and click save.
+
+![Create Dashboard](readme_images/create-dashboard.png)
+
+4. On the next page, select the Freeform template.
+5. Keep the default setting that creates a Tabbed dashboard.
+6. Click OK to create an empty freeform dashboard with a single Tab.
+
+
 ## If you have any questions just contact me
 Felix Augenstein<br>
 Digital Tech Ecosystem & Developer Representative @IBM<br>
