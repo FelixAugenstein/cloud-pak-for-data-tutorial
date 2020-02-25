@@ -157,7 +157,52 @@ The dashboards are dynamic by nature and support exploration of the data using f
 
 ![Filter International Plan](readme_images/filter-international-plan.png)
 
-Notice that the slice for churn in the visualization to the left has increased significantly. This tells you that clients on an international plan are more likely to churn than clients that are not on an international plan. To remove the filter, click the filter icon for the visualization in the upper-right corner, then select the delete filter button that pops up (the icon is a cross in a circle). Clicking the slice again achieves the same effect.
+Notice that the slice for churn in the visualization to the left has increased significantly. This tells you that <strong>clients on an international plan are more likely to churn than clients that are not on an international plan</strong>. To remove the filter, click the filter icon for the visualization in the upper-right corner, then select the delete filter button that pops up (the icon is a cross in a circle). Clicking the slice again achieves the same effect.
+
+## Data preparation and transformation
+
+The data preparation and transformation covers all activities needed to construct the final data set that is fed into the machine learning service. Data preparation tasks are likely to be performed multiple times and not in any prescribed order. Tasks include table, record, and attribute selection as well as transformation and cleansing of data for the modeling tools. This can involve turning categorical features into numerical ones, normalizing the features, and removing columns not relevant for prediction (for example, the phone number of the client).
+
+Watson Studio offers a service called <strong>Data Refine</strong> that lets you clean up and transform data without any programming. To run the service:
+
+1. Click Add to project in the top bar of the project overview page.
+2. In the Choose asset type window, select Data Refinery Flow to create a new flow.
+3. On the next page, select Data Assets and then the Customer Churn data set and click Add.
+4. This opens the data source for you so that you can transform and view it.
+
+Note that you can also initiate the Data Refine service by clicking on Refine from the Preview panel of the data set.
+
+![Refine Data](readme_images/refine-data.png)
+
+The Data Refine service is then loaded and displays the following table.
+
+![Operation](readme_images/operation.png)
+
+Notice the tabs to the top left, which let you view the data in a tabular form for profiling it (as in the previous section) and for creating custom visualizations of the data.
+
+To transform the data:
+
+1. Select the 3 dots in the “phone number” column and invoke the Remove command in the pull-down menu. This deletes the column.
+2. Select one of the columns, for instance state, by clicking on it.
+3. Click the Operation button in the upper-left corner, which shows you some available transformations.
+
+You could convert the column to another type (say float or integer). However, we will not do this for now because the Machine Learning service does it for us automatically behind the scenes. But in principle, you could decide to turn a string column into an integer column. This is especially helpful if certain numbers are represented as string, although they are needed as integer or float. Other operations include substitute, remove duplicates or missing values, etc.
+
+1. Click the Run Data Refinery flow button in the toolbar. Its icon is an arrow.
+2. Select the option to Save and create a job.
+
+![Run Refinery](readme_images/run-refinery.png)
+
+3. On the next page, you can name the flow and give it an optional description. Note that the output file will be named the same as the asset name, but with an added “shaped” suffix.
+4. Keep the default runtime. Click Create and run.
+
+The resulting window shows the input file, the output file, and the runs. Notice that there is also a tab where you can schedule the flow so that it is executed automatically.
+
+![Finished Refinement](readme_images/finished-refinement.png)
+
+Go back to your project and check that the output file and the flow are now part of your project assets.If you click on the newly created flow asset, you see that the “phone number” column has been removed.
+
+![Output Flow Assets](readme_images/output-flow-assets.png)
 
 ## If you have any questions just contact me
 Felix Augenstein<br>
