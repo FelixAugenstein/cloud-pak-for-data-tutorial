@@ -115,7 +115,7 @@ To add a data connection:
 3. Back in the dashboard, select the newly imported data source.
 4. Preview the data source by clicking the table icon on the lower-right of the panel.
 
-![Add Source](readme_images/add-source.png)
+![Preview Table](readme_images/preview-table.png)
 
 5. Expand the data source by clicking > so that you can view the columns.
 
