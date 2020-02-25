@@ -140,6 +140,19 @@ To create a visualization that shows the distribution of churns and no-churns as
 7. Click the Collapse arrow in the upper right of the form, as shown above. This minimizes the pie chart and renders it on the dashboard.
 8. Select the Tab at the upper left, then click the Edit the title button.
 
+![Edit Title](readme_images/edit-title.png)
+
+9. Provide a title for the tab (for example, ‘Customer Churn’), then hit Enter.
+
+Follow these steps and create two more visualizations:
+
+- A stacked column chart showing State (drag to Bars) and Churn (drag to Length and Color) on the X and Y axis, respectively
+- A pie chart showing the distribution of International Plan (drag International Plan to Segments and Size)
+
+This should result in a dashboard similar to the following image. Notice that you can move visualizations on the dashboard using the <strong>Move widget</strong> command located on the top of each visualization.
+
+![Move Widget](readme_images/move-widget.png)
+
 ## If you have any questions just contact me
 Felix Augenstein<br>
 Digital Tech Ecosystem & Developer Representative @IBM<br>
