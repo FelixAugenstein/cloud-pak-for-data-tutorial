@@ -137,6 +137,9 @@ To create a visualization that shows the distribution of churns and no-churns as
 
 ![Churn Column](readme_images/churn-column.png)
 
+7. Click the Collapse arrow in the upper right of the form, as shown above. This minimizes the pie chart and renders it on the dashboard.
+8. Select the Tab at the upper left, then click the Edit the title button.
+
 ## If you have any questions just contact me
 Felix Augenstein<br>
 Digital Tech Ecosystem & Developer Representative @IBM<br>
