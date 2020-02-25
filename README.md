@@ -153,6 +153,12 @@ This should result in a dashboard similar to the following image. Notice that yo
 
 ![Move Widget](readme_images/move-widget.png)
 
+The dashboards are dynamic by nature and support exploration of the data using filters. In the visualization that shows ‘International Plan,’ click the slice associated with the value ‘yes.’ This creates a filter that will apply to all other (connected) visualizations on the current dashboard.
+
+![Filter International Plan](readme_images/filter-international-plan.png)
+
+Notice that the slice for churn in the visualization to the left has increased significantly. This tells you that clients on an international plan are more likely to churn than clients that are not on an international plan. To remove the filter, click the filter icon for the visualization in the upper-right corner, then select the delete filter button that pops up (the icon is a cross in a circle). Clicking the slice again achieves the same effect.
+
 ## If you have any questions just contact me
 Felix Augenstein<br>
 Digital Tech Ecosystem & Developer Representative @IBM<br>
