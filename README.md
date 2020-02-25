@@ -123,6 +123,20 @@ To add a data connection:
 
 Notice that you can view and change the properties of the columns. Simply click the 3 dots to the right of the column name, then select Properties in the pop-up menu. This displays a window as shown above, and allows you to alter the default setting for Usage (Identifier, Attribute, and Measure) and Aggregate Function (Count, Count Distinct, Maximum, and Minimum). For now, you should be fine with the default settings.
 
+To create a visualization that shows the distribution of churns and no-churns as a pie chart:
+
+1. Select the Visualizations icon in the toolbar to the left.
+2. Select a Pie chart.
+3. This creates a form for specifying the properties of the pie chart using, for example, columns of the data set.
+
+![Pie Chart](readme_images/pie-chart.png)
+
+4. Select the Sources icon in the toolbar to the left (located above the Visualizations icon).
+5. Drag the churn column onto the Segments property of the pie chart.
+6. Drag the churn column onto the Size column of the pie chart.
+
+![Churn Column](readme_images/churn-column.png)
+
 ## If you have any questions just contact me
 Felix Augenstein<br>
 Digital Tech Ecosystem & Developer Representative @IBM<br>
