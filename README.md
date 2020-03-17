@@ -13,7 +13,7 @@
 This tutorial consists of 4 parts, you can start with part I or any other part, however, the necessary environment is set up in part I.<br>
 [Part I - data visualization, preparation, and transformation](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio)<br>
 [Part II - build and evaluate machine learning models by using the AutoAI](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-ii/)<br>
-[Part III](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-iii/)<br>
+[Part III - graphically build and evaluate machine learning models by using the SPSS Modeler flow](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-iii/)<br>
 [Part IV](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-iv/)
 
 The 4 parts of this tutorial are based on the [Learning path: Getting started with Watson Studio](https://developer.ibm.com/series/learning-path-watson-studio/).
