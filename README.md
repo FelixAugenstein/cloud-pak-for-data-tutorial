@@ -17,8 +17,7 @@ This tutorial consists of 5 parts, you can start with part I or any other part, 
 [Part IV - set up and run Jupyter Notebooks to develop a machine learning model](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-iv/)<br>
 [Part V - deploy a local app to test your model](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-v/) 
 
-
-The 4 parts of this tutorial are based on the [Learning path: Getting started with Watson Studio](https://developer.ibm.com/series/learning-path-watson-studio/).
+The first 4 parts of this tutorial are based on the [Learning path: Getting started with Watson Studio](https://developer.ibm.com/series/learning-path-watson-studio/).
 
 ## Set up your environment
 
