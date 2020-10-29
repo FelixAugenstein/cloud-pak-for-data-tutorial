@@ -213,7 +213,7 @@ The resulting window shows the input file, the output file, and the runs. Notice
 
 ![Finished Refinement](readme_images/finished-refinement.png)
 
-Go back to your project and check that the output file and the flow are now part of your project assets.If you click on the newly created flow asset, you see that the “phone number” column has been removed.
+Go back to your project and check that the output file and the flow are now part of your project assets. If you click on the newly created flow asset, you see that the “phone number” column has been removed.
 
 ![Output Flow Assets](readme_images/output-flow-assets.png)
 
