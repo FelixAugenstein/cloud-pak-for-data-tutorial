@@ -206,8 +206,8 @@ You could convert the column to another type (say float or integer). However, we
 
 ![Run Refinery](readme_images/run-refinery.png)
 
-3. On the next page, you can name the flow and give it an optional description. Note that the output file will be named the same as the asset name, but with an added “shaped” suffix.
-4. Keep the default runtime. Click Create and run.
+3. On the next page, you can name the flow (for instance Data Refinery flow for customer churn) and give it an optional description. Note that the output file will be named the same as the asset name, but with an added “shaped” suffix. You will have to click the Next button, keep the default environment and don't activate schedule.
+4. Click Create and run.
 
 The resulting window shows the input file, the output file, and the runs. Notice that there is also a tab where you can schedule the flow so that it is executed automatically.
 
