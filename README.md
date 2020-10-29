@@ -104,7 +104,7 @@ You can look further into the data set by creating a dashboard with associated v
 To create the dashboard:
 
 1. Go to the project and click Add to project.
-2. Click Dashboard to create a new dashboard.
+2. Click Dashboard to create a new (blank) dashboard.
 3. Follow these steps in the New Dashboard page:
 - Enter a Name for the dashboard (for example, ‘customer-churn-dashboard’.)
 - Provide a Description for the dashboard (optional).
@@ -112,19 +112,19 @@ To create the dashboard:
 
 ![Create Dashboard](readme_images/create-dashboard.png)
 
-4. On the next page, select the Freeform template.
+4. On the next page, select the Tabbed Freeform (empty) template.
 5. Keep the default setting that creates a Tabbed dashboard.
 6. Click OK to create an empty freeform dashboard with a single Tab.
 
 To add a data connection:
 
-1. Click the Add a source button (the + icon) in the upper-left part of the page:
+1. Click the Add a source button (the + icon) in the upper-left part of the page under selected sources:
 
 ![Add Source](readme_images/add-source.png)
 
 2. Go to Data Assets and select your customer-churn-analysis.csv file as a data source.
 3. Back in the dashboard, select the newly imported data source.
-4. Preview the data source by clicking the table icon on the lower-right of the panel.
+4. Preview the data source by clicking the table icon on the lower-right of the panel. (Note: This feature is not available anymore)
 
 ![Preview Table](readme_images/preview-table.png)
 
@@ -149,11 +149,11 @@ To create a visualization that shows the distribution of churns and no-churns as
 ![Churn Column](readme_images/churn-column.png)
 
 7. Click the Collapse arrow in the upper right of the form, as shown above. This minimizes the pie chart and renders it on the dashboard.
-8. Select the Tab at the upper left, then click the Edit the title button.
+8. Select the Tab at the upper left, then click the Edit the title button. (Note: This feature is not available anymore)
 
 ![Edit Title](readme_images/edit-title.png)
 
-9. Provide a title for the tab (for example, ‘Customer Churn’), then hit Enter.
+9. Provide a title for the tab (for example, ‘Customer Churn’), then hit Enter. (Note: This feature is not available anymore)
 
 Follow these steps and create two more visualizations:
 
