@@ -170,6 +170,8 @@ The dashboards are dynamic by nature and support exploration of the data using f
 
 Notice that the slice for churn in the visualization to the left has increased significantly. This tells you that <strong>clients on an international plan are more likely to churn than clients that are not on an international plan</strong>. To remove the filter, click the filter icon for the visualization in the upper-right corner, then select the delete filter button that pops up (the icon is a cross in a circle). Clicking the slice again achieves the same effect.
 
+You can generate a shared link by pressing the share button next to the download button and share your dashboard with others.
+
 ## Data preparation and transformation
 
 The data preparation and transformation covers all activities needed to construct the final data set that is fed into the machine learning service. Data preparation tasks are likely to be performed multiple times and not in any prescribed order. Tasks include table, record, and attribute selection as well as transformation and cleansing of data for the modeling tools. This can involve turning categorical features into numerical ones, normalizing the features, and removing columns not relevant for prediction (for example, the phone number of the client).
