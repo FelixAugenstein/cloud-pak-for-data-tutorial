@@ -43,7 +43,7 @@ Repeat the same process for the Watson Studio. You will find it in the Catalog u
 
 ![Name and Define Storage](readme_images/define-storage.png)
 
-## Provision IBM Cloud services in Watson Studio
+## Provision IBM Cloud services in Cloud Pak for Data
 
 <h4>1) Watson Machine Learning service</h4>
 
@@ -79,21 +79,21 @@ Repeat the same process for the Watson Studio. You will find it in the Catalog u
 
 <h4>1) Upload the data set</h4>
 
-In Watson Studio, select Assets. If not already open, click the 0100 data icon at the upper right of the panel to open the Files sub-panel. Then, click Load and browse the file customer-churn-analysis-V2.csv.
+In Cloud Pak for Data, select Assets. If not already open, click the 0100 data icon at the upper right of the panel to open the Files sub-panel. Then, click Load and browse the file customer-churn-analysis-V2.csv.
 
 ![Upload Data](readme_images/upload-data.png)
 
 After completing the steps to setting up your environment, you can now focus on the main topic of this tutorial, which is all about data. You’ll learn how to visualize it, then prepare and transform it so that it can be used to build optimized high-quality predictive models.
 
-<h4>2) Preview data in Watson Studio</h4>
+<h4>2) Preview data in Cloud Pak for Data</h4>
 
 After data is collected, the next step is referred to as the data understanding phase. This consists of activities that enable you to become familiar with the data, identify data quality problems, and discover first insights into the data.
 
-You can achieve this in Watson Studio by simple user interactions, without a single line of code. To view the data set in Watson Studio, locate the data asset and then click the name of the data set to open it.
+You can achieve this in Cloud Pak for Data by simple user interactions, without a single line of code. To view the data set in Cloud Pak for Data, locate the data asset and then click the name of the data set to open it.
 
 ![Select Data](readme_images/select-data.png)
 
-Watson Studio shows you a preview of the data in the Preview tab.
+Cloud Pak for Data shows you a preview of the data in the Preview tab.
 
 ![Preview Data](readme_images/preview-data.png)
 
@@ -176,7 +176,7 @@ You can generate a shared link by pressing the share button next to the download
 
 The data preparation and transformation covers all activities needed to construct the final data set that is fed into the machine learning service. Data preparation tasks are likely to be performed multiple times and not in any prescribed order. Tasks include table, record, and attribute selection as well as transformation and cleansing of data for the modeling tools. This can involve turning categorical features into numerical ones, normalizing the features, and removing columns not relevant for prediction (for example, the phone number of the client).
 
-Watson Studio offers a service called <strong>Data Refine</strong> that lets you clean up and transform data without any programming. To run the service:
+Cloud Pak for Data offers a service called <strong>Data Refine</strong> that lets you clean up and transform data without any programming. To run the service:
 
 1. Click Add to project in the top bar of the project overview page.
 2. In the Choose asset type window, select Data Refinery Flow to create a new flow.
