@@ -11,11 +11,11 @@
 ## Digital Tech Tutorial Watson Studio Part I to V
 
 This tutorial consists of 5 parts, you can start with part I or any other part, however, the necessary environment is set up in part I.<br>
-[Part I - data visualization, preparation, and transformation](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio)<br>
-[Part II - build and evaluate machine learning models by using the AutoAI](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-ii/)<br>
-[Part III - graphically build and evaluate machine learning models by using the SPSS Modeler flow](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-iii/)<br>
-[Part IV - set up and run Jupyter Notebooks to develop a machine learning model](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-iv/)<br>
-[Part V - deploy a local app to test your model](https://github.com/FelixAugenstein/digital-tech-tutorial-watson-studio-part-v/) 
+[Part I - data visualization, preparation, and transformation](https://github.com/FelixAugenstein/cloud-pak-for-data-tutorial)<br>
+[Part II - build and evaluate machine learning models by using the AutoAI](https://github.com/FelixAugenstein/cloud-pak-for-data-tutorial-part-ii)<br>
+[Part III - graphically build and evaluate machine learning models by using the SPSS Modeler flow](https://github.com/FelixAugenstein/cloud-pak-for-data-tutorial-part-iii)<br>
+[Part IV - set up and run Jupyter Notebooks to develop a machine learning model](https://github.com/FelixAugenstein/cloud-pak-for-data-tutorial-part-iv)<br>
+[Part V - deploy a local app to test your model](https://github.com/FelixAugenstein/cloud-pak-for-data-tutorial-part-v) 
 
 The first 4 parts of this tutorial are based on the [Learning path: Getting started with Watson Studio](https://developer.ibm.com/series/learning-path-watson-studio/).
 
@@ -51,7 +51,7 @@ Repeat the same process for the Watson Studio. You will find it in the Catalog u
 2. Scroll down to the Associated services section. 
 3. Click Add Service. 
 4. Select Watson from the drop-down menu. 
-5. On the next page, click Add in the Machine Learning service tile. 
+5. On the next page, click Watson Machine Learning service tile. 
 6. On the next page, select the New tab to create a new service. 
 7. Keep the Lite plan for now (you can change it later, if necessary). 
 8. Scroll down and click Create to create the service. 
@@ -59,7 +59,7 @@ Repeat the same process for the Watson Studio. You will find it in the Catalog u
 10. Enter a name for the service instance. You can keep the default resource group. 
 11. Click Confirm. 
 
-![Associated services](readme_images/associated-services.png)
+![Associated services](readme_images/associated-services-watson.png)
 
 <h4>2) IBM Cognos Dashboard Embedded service</h4>
 
@@ -69,17 +69,17 @@ Repeat the same process for the Watson Studio. You will find it in the Catalog u
 4. Select Dashboard from the drop-down menu. 
 5. On the next page, select New to create a new service. 
 6. Keep the Lite plan for now (you can change it later, if necessary).
-7. Click Create to create the service.
+7. Click on IBM Cognos Dashboard Embedded and Create to create the service.
 8. Enter a name for the service instance. You can keep the default resource group. 
 9. Click Confirm. 
 
-![Associated services](readme_images/associated-services.png)
+![Associated services](readme_images/associated-services-cognos.png)
 
 ## Data visualization
 
 <h4>1) Upload the data set</h4>
 
-In Watson Studio, select Assets. If not already open, click the 0100 data icon at the upper right of the panel to open the Files sub-panel. Then, click Load and browse the file customer-churn-analysis.csv.
+In Watson Studio, select Assets. If not already open, click the 0100 data icon at the upper right of the panel to open the Files sub-panel. Then, click Load and browse the file customer-churn-analysis-V2.csv.
 
 ![Upload Data](readme_images/upload-data.png)
 
@@ -108,7 +108,7 @@ To create the dashboard:
 3. Follow these steps in the New Dashboard page:
 - Enter a Name for the dashboard (for example, ‘customer-churn-dashboard’.)
 - Provide a Description for the dashboard (optional).
-- For Cognos Dashboard Embedded Service, select the dashboard service that you created previously and click save.
+- For Cognos Dashboard Embedded Service, select the dashboard service that you created previously and click Create.
 
 ![Create Dashboard](readme_images/create-dashboard.png)
 
@@ -122,9 +122,9 @@ To add a data connection:
 
 ![Add Source](readme_images/add-source.png)
 
-2. Go to Data Assets and select your customer-churn-analysis.csv file as a data source.
-3. Back in the dashboard, select the newly imported data source.
-4. Preview the data source by clicking the table icon on the lower-right of the panel. (Note: This feature is not available anymore)
+2. Go to Data Assets and select your customer-churn-analysis-V2.csv file as a data source.
+3. Click on the newly imported data source.
+4. Preview the data source by clicking pulling up the lower-right of the panel.
 
 ![Preview Table](readme_images/preview-table.png)
 
@@ -149,11 +149,11 @@ To create a visualization that shows the distribution of churns and no-churns as
 ![Churn Column](readme_images/churn-column.png)
 
 7. Click the Collapse arrow in the upper right of the form, as shown above. This minimizes the pie chart and renders it on the dashboard.
-8. Select the Tab at the upper left, then click the Edit the title button. (Note: This feature is not available anymore)
+8. Select the Tab at the upper left, then click the Edit the title button.
 
 ![Edit Title](readme_images/edit-title.png)
 
-9. Provide a title for the tab (for example, ‘Customer Churn’), then hit Enter. (Note: This feature is not available anymore)
+9. Provide a title for the tab by clicking on the (for example, ‘Customer Churn’), then hit Enter.
 
 Follow these steps and create two more visualizations:
 
@@ -183,10 +183,6 @@ Watson Studio offers a service called <strong>Data Refine</strong> that lets you
 3. On the next page, select Data Assets and then the Customer Churn data set and click Add.
 4. This opens the data source for you so that you can transform and view it.
 
-Note that you can also initiate the Data Refine service by clicking on Refine from the Preview panel of the data set.
-
-![Refine Data](readme_images/refine-data.png)
-
 The Data Refine service is then loaded and displays the following table.
 
 ![Operation](readme_images/operation.png)
@@ -199,19 +195,14 @@ To transform the data:
 2. Select one of the columns, for instance state, by clicking on it.
 3. Click the Operation button in the upper-left corner, which shows you some available transformations.
 
-You could convert the column to another type (say float or integer). However, we will not do this for now because the Machine Learning service does it for us automatically behind the scenes. But in principle, you could decide to turn a string column into an integer column. This is especially helpful if certain numbers are represented as string, although they are needed as integer or float. Other operations include substitute, remove duplicates or missing values, etc.
+You could convert the column to another type (say float or integer). However, we will not do this for now because the Machine Learning service did it for us automatically behind the scenes. But in principle, you could decide to turn a string column into an integer column. This is especially helpful if certain numbers are represented as string, although they are needed as integer or float. Other operations include substitute, remove duplicates or missing values, etc.
 
-1. Click the Run Data Refinery flow button in the toolbar. Its icon is an arrow.
-2. Select the option to Save and create a job.
+1. Select the option to Save and create a job.
 
 ![Run Refinery](readme_images/run-refinery.png)
 
-3. On the next page, you can name the flow (for instance Data Refinery flow for customer churn) and give it an optional description. Note that the output file will be named the same as the asset name, but with an added “shaped” suffix. You will have to click the Next button, keep the default environment and don't activate schedule.
-4. Click Create and run.
-
-The resulting window shows the input file, the output file, and the runs. Notice that there is also a tab where you can schedule the flow so that it is executed automatically.
-
-![Finished Refinement](readme_images/finished-refinement.png)
+2. On the next page, you can name the flow (for instance 'Data Refinery flow for customer churn') and give it an optional description. Note that the output file will be named the same as the asset name, but with an added 'shaped' suffix. You will have to click the Next button, keep the default environment and don't activate schedule.
+3. Click Create and run.
 
 Go back to your project and check that the output file and the flow are now part of your project assets. If you click on the newly created flow asset, you see that the “phone number” column has been removed.
 
