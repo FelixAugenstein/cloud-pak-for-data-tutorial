@@ -1,4 +1,4 @@
-<h1 align="center" style="border-bottom: none;">:bar_chart: IBM Cloud Pak for Data: Part I</h1>
+<h1 align="center" style="border-bottom: none;">:bar_chart: IBM Cloud Pak for Data Tutorial: Part I</h1>
 <h3 align="center">In this hands-on tutorial you will perform data visualization, preparation, and transformation to build a high-quality predictive model for customer churn.</h3>
 
 ## Prerequisites
