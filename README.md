@@ -27,9 +27,9 @@ The **CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining is a
 4. Modeling - Which modeling techniques could apply?<br />
 5. Evaluation - Which model is the most accurate?<br />
 6. Deployment - How to implement the model?<br />
-<br />
+
 ![CRISP DM](readme_images/crisp_dm.png)
-<br />
+
 In this case we have a business understanding provided (predict churns) and we will focus on getting to understand the data better and prepare it for modeling.
 
 ## Set up your environment
