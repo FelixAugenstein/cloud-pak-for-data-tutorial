@@ -20,14 +20,14 @@ This tutorial consists of 5 parts, you can start with part I or any other part, 
 The first 4 parts of this tutorial are based on the [Learning path: Getting started with Watson Studio](https://developer.ibm.com/series/learning-path-watson-studio/).
 
 <h4>1) CRISP-DM</h4>
-The **CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining is a model to display the cycle of a data science project. It consists of six phases:\
-1. Business Understanding - What does the business need?\
-2. Data Understanding - What data do we have and how is it made up of?\
-3. Data Preparation - How can we structure the data for the modeling?\
-4. Modeling - Which modeling techniques could apply?\
-5. Evaluation - Which model is the most accurate?\
-6. Deployment - How to implement the model?\
-\
+The **CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining is a model to display the cycle of a data science project. It consists of six phases:<br />
+1. Business Understanding - What does the business need?<br />
+2. Data Understanding - What data do we have and how is it made up of?<br />
+3. Data Preparation - How can we structure the data for the modeling?<br />
+4. Modeling - Which modeling techniques could apply?<br />
+5. Evaluation - Which model is the most accurate?<br />
+6. Deployment - How to implement the model?<br />
+<br />
 In this case we have a business understanding provided (predict churns) and we will focus on getting to understand the data better and prepare it for modeling.
 
 ## Set up your environment
