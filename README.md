@@ -20,7 +20,7 @@ This tutorial consists of 5 parts, you can start with part I or any other part, 
 The first 4 parts of this tutorial are based on the [Learning path: Getting started with Watson Studio](https://developer.ibm.com/series/learning-path-watson-studio/).
 
 <h4>1) CRISP-DM</h4>
-The <b>CR</b>oss <b>I</b>ndustry <b>S</b>tandard <b>P</b>rocess for <b>D</b>ata <b>M</b>ining is a model to display the cycle of a data science project. It consists of six phases:<br />
+The <strong>CR</strong>oss <b>I</b>ndustry <b>S</b>tandard <b>P</b>rocess for <b>D</b>ata <b>M</b>ining is a model to display the cycle of a data science project. It consists of six phases:<br />
 1. Business Understanding - What does the business need?<br />
 2. Data Understanding - What data do we have and how is it made up of?<br />
 3. Data Preparation - How can we structure the data for the modeling?<br />
