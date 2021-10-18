@@ -35,6 +35,8 @@ In this case we have a business understanding provided (predict churns) and we w
 
 ## Set up your environment
 
+Note: You can either follow the steps below or go to [dataplatform.cloud.ibm.com](https://dataplatform.cloud.ibm.com/) to set up the environment.
+
 <h4>1) Create the Object Storage service</h4>
 
 After the login you will see your IBM Cloud Dashboard. In the upper menu bar click Catalog. In the Catalog section, search for Object Storage. Then, click the Object Storage tile. Enter a name and select the Lite version of the service. Finally, click create.
