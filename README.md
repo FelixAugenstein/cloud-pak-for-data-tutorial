@@ -99,7 +99,7 @@ In Watson Studio, select Assets. If not already open, click the 0100 data icon a
 
 ![Upload Data](readme_images/upload-data.png)
 
-After completing the steps to setting up your environment, you can now focus on the main topic of this tutorial, which is all about data. You’ll learn how to visualize it, then prepare and transform it so that it can be used to build optimized high-quality predictive models.
+After completing the steps to set up your environment, you can now focus on the main topic of this tutorial, which is all about data. You’ll learn how to visualize it, then prepare and transform it so that it can be used to build optimized high-quality predictive models.
 
 <h4>2) Preview data in Watson Studio</h4>
 
