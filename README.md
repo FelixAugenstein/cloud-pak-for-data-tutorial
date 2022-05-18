@@ -223,9 +223,3 @@ You could convert the column to another type (say float or integer). However, we
 Go back to your project and check that the output file and the flow are now part of your project assets. If you click on the newly created flow asset, you see that the “phone number” column has been removed.
 
 ![Output Flow Assets](readme_images/output-flow-assets.png)
-
-## If you have any questions just contact me
-Felix Augenstein<br>
-Digital Tech Ecosystem & Developer Representative @IBM<br>
-Twitter: [@F_Augenstein](https://twitter.com/F_Augenstein)<br>
-LinkedIn: [linkedin.com/in/felixaugenstein](https://www.linkedin.com/in/felixaugenstein/)
