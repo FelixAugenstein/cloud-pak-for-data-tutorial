@@ -66,7 +66,7 @@ Repeat the same process for the Watson Studio. You will find it in the Catalog u
 1. Select the Settings tab in the project menu. 
 2. Scroll down to the Associated services section. 
 3. Click Add Service. 
-4. Select Watson from the drop-down menu. 
+4. Click on new service. 
 5. On the next page, click Watson Machine Learning service tile. 
 6. On the next page, select the New tab to create a new service. 
 7. Keep the Lite plan for now (you can change it later, if necessary). 
@@ -75,21 +75,23 @@ Repeat the same process for the Watson Studio. You will find it in the Catalog u
 10. Enter a name for the service instance. You can keep the default resource group. 
 11. Click Confirm. 
 
-![Associated services](readme_images/associated-services-watson.png)
+![Associated services](readme_images/connect-service.png)
+![Associated services](readme_images/create-new-service.png)
 
 <h4>2) IBM Cognos Dashboard Embedded service</h4>
 
 1. Select the Settings tab again. 
 2. Scroll to the Associated services section. 
 3. Click Add service. 
-4. Select Dashboard from the drop-down menu. 
-5. On the next page, select New to create a new service. 
-6. Keep the Lite plan for now (you can change it later, if necessary).
-7. Click on IBM Cognos Dashboard Embedded and Create to create the service.
+4. Click on new Service. 
+5. On the next page, click on IBM Cognos Dashboard Embedded
+6. On the next page, select New to create a new service. 
+7. Keep the Lite plan for now (you can change it later, if necessary). 
 8. Enter a name for the service instance. You can keep the default resource group. 
 9. Click Confirm. 
 
-![Associated services](readme_images/associated-services-cognos.png)
+![Associated services](readme_images/connect-service.png)
+
 
 ## Data visualization
 
